@@ -109,6 +109,9 @@ body {
   padding: 0 30px;
 }
 
+.contact-btn {
+  margin-bottom: 100px;
+}
 
 @media (max-width: 1000px) {
 
@@ -129,7 +132,16 @@ body {
     margin-bottom: 30%;
   }
 
+  .navbar-nav {
+    font-size: 2rem;
+  }
+
+
   #title {
+    text-align: center;
+  }
+
+  #portfolio {
     text-align: center;
   }
 
