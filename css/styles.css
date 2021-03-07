@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+
+}
+
+/* Navbar */
+
+.logo-txt {
+  margin-left: 3px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+.nav-logo {
+  width: 50px;
+}
+
+/* Title */
+
+.slide-logo {
+  max-height: 65px;
+  max-width: 200px;
+  margin-top: 60px;
+}
+
+.title-container {
+  margin-top: 15%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.slide-txt {
+  margin-top: 30px;
+}
+
+.big-heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-left: 10px;
+}
+
+/* Portfolio */
+.portfolio-card {
+  margin-bottom: 100px;
+  padding: 15px 60px;
+}
+
+.portfolio-container {
+  margin-top: 10%;
+}
+
+.logo-img-container {
+  height: 80px;
+}
+
+.logo-img-top {
+  max-width: 200px;
+  max-height: 50px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.potfolio-info {
+  color: rgba(0,0,0,.9);
+}
+
+
+/* About */
+#about {
+  text-align: center;
+}
+
+.abt-img {
+  font-size: 4rem;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
+/* Team */
+.ditlef-pic {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+#team {
+  text-align: center;
+}
+
+.team-txt {
+  padding: 0 25%;
+}
+
+/* Contact */
+.contact-form {
+  padding: 0 30px;
+}
+
+
+@media (max-width: 1000px) {
+
+  .nav-logo {
+    width: 150px;
+    margin-left: 20%;
+  }
+
+  .logo-txt {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+
+  .navbar {
+    margin-bottom: 30%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 4rem;
+  }
+
+  .slide-logo {
+    max-height: 40%;
+    max-width: 50%;
+    margin: 30% auto;
+  }
+
+  .slide-txt {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+}
