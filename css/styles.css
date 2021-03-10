@@ -1,28 +1,66 @@
 body {
   margin: 0;
-
 }
 
 /* Navbar */
-
 .logo-txt {
   margin-left: 3px;
 }
 
 .navbar-brand{
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
 .nav-link {
   margin-left: 15px;
+  padding-left: 0;
 }
 
 .nav-logo {
   width: 50px;
 }
 
+.section-title {
+  margin-top: 200px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.dark-title {
+  margin-top: 200px;
+  padding-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Background */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.shadow-box {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(30, 39, 49, 0.9);
+  box-shadow: inset 00px 00px 1000px 7rem rgb(0 0 0 / 40%);
+}
+
+.home-section {
+  position: absolute;
+}
+
 /* Title */
+#title {
+  text-align: center;
+  color: #fff;
+  padding: 0 16%;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+}
 
 .slide-logo {
   max-height: 65px;
@@ -31,11 +69,7 @@ body {
 }
 
 .title-container {
-  margin-top: 15%;
-}
-
-.carousel-item {
-  text-align: center;
+  margin-top: 22%;
 }
 
 .slide-txt {
@@ -49,45 +83,114 @@ body {
   margin-left: 10px;
 }
 
-/* Portfolio */
-.portfolio-card {
-  margin-bottom: 100px;
-  padding: 15px 60px;
+.home-carousel {
+  margin-top: 8%;
+  height: 276px;
 }
-
-.portfolio-container {
-  margin-top: 10%;
-}
-
-.logo-img-container {
-  height: 80px;
-}
-
-.logo-img-top {
-  max-width: 200px;
-  max-height: 50px;
-}
-
-.card-body {
-  padding: 0;
-}
-
-.potfolio-info {
-  color: rgba(0,0,0,.9);
-}
-
 
 /* About */
 #about {
   text-align: center;
+  background-color: #fff;
+  height: 600px;
+  margin: 90px 0px;
+}
+
+.about-card {
+  padding: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.logo-img-container {
+  margin: 30px;
 }
 
 .abt-img {
   font-size: 4rem;
 }
 
-.about-text {
-  margin-top: 20px;
+/* Portfolio */
+
+#portfolio {
+  text-align: center;
+  margin: 80px 16%;
+}
+
+.portfolio-card {
+  margin: 10% auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+  background-color: #e4fbff;
+}
+
+.ptf-logo {
+  height: 65px;
+  overflow: hidden;
+}
+
+.ptf-logo-box {
+  height: 100%;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #e4fbff;
+}
+
+.logo-img-top {
+  max-width: 140px;
+  max-height: 40px;
+}
+
+.effera-plogo {
+  max-width: 200px;
+  max-height: 40px;
+}
+
+.mgmt-box {
+  overflow: hidden;
+}
+
+.mgmt {
+  width: 100%;
+}
+
+
+.mgmt:hover {
+  transform: scale(1.05);
+}
+
+.prtf-txt {
+  font-size: .8rem;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.portfolio-info {
+  color: #a3d2ca;
+  background-color: inherit;
+  border-color: #e4fbff;
+  margin: 0 10px 10px;
+}
+
+.portfolio-info:hover {
+  transform: scale(1.05);
+}
+
+/* News */
+#news {
+  background-color: #fff;
+  height: 800px;
+}
+
+.twitter {
+  width: 50%;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 /* Team */
@@ -96,15 +199,33 @@ body {
   margin-bottom: 30px;
 }
 
+
 #team {
   text-align: center;
 }
 
-.team-txt {
-  padding: 0 25%;
+.team-heading {
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
+.team-txt {
+  padding: 0 16%;
+  color: #fff;
+  margin-bottom: 13%;
+}
+
+
 /* Contact */
+#contact {
+  background-color: #fff;
+}
+
+.home-map {
+  margin: 0 auto;
+}
+
 .contact-form {
   padding: 0 30px;
 }
@@ -112,6 +233,12 @@ body {
 .contact-btn {
   margin-bottom: 100px;
 }
+
+
+#footer {
+  background-color: #fff;
+}
+
 
 @media (max-width: 1000px) {
 
@@ -133,7 +260,7 @@ body {
   }
 
   .navbar-nav {
-    font-size: 2rem;
+    font-size: 2rem
   }
 
 

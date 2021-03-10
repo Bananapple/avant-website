@@ -7,55 +7,62 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="icon" href="favicon.ico">
+
     <title>AVANT</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
-    <section id="title">
 
-      <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img class="nav-logo" src="logo.png" alt=""><span class="logo-txt">AVANT</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ms-auto">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-link" href="team.html">Team</a>
-                <a class="nav-link" href="news.html">News</a>
-                <a class="nav-link" href="contact.html">Contact</a>
+      <video src="video.mp4" autoplay muted loop id="myVideo">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+
+      <div class="shadow-box">
+      </div>
+
+      <div class="home-section">
+
+        <section id="title">
+
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="nav-logo" src="logo.png" alt=""><span class="logo-txt">AVANT</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link" href="#news">News</a>
+                  <a class="nav-link" href="#team">Team</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
 
-      <!-- Title   -->
-      <div class="container-fluid title-container">
-        <div class="row">
-          <div class="col-lg-6">
+
+          <!-- Title   -->
+          <div class="container-fluid title-container">
             <h1 class="big-heading">Welcome to Avant.</h1>
-            <h1 class="big-heading">We're a venture capital firm with roots in the technology industry.</h1>
-          </div>
+            <h1 class="big-heading">We're a venture capital firm with roots in the technology industry, bringing capital and experience to create winning teams.</h1>
 
-          <div class="col-lg-6">
-            <div id="carouselExampleFade" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-dark home-carousel" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img class="slide-logo"src="effera-logo.png" alt="">
+                  <img class="slide-logo"src="effera-logo.png" alt="">
                 </div>
                 <div class="carousel-item" data-bs-interval="7000">
-                    <img class="slide-logo"src="griptel-logo.png" alt="">
+                  <img class="slide-logo"src="griptel-logo.png" alt="">
                 </div>
                 <div class="carousel-item" data-bs-interval="7000">
-                    <img class="slide-logo"src="vissim-logo.png" alt="">
+                  <img class="slide-logo"src="vissim-logo.png" alt="">
                 </div>
                 <div class="carousel-item" data-bs-interval="7000">
                   <img class="slide-logo"src="ubq-logo.png" alt="">
@@ -68,16 +75,264 @@
                 </div>
               </div>
             </div>
+          </div>
+
+        </section>
+
+        <!-- About section -->
+        <section id="about">
+          <div class="container-fluid about-container">
+            <h1 class="dark-title">Working with us</h1>
+            <div class="row">
+              <div class="col-lg-4 col-md-12 about-card">
+                <div class="logo-img-container">
+                  <i class="fas fa-dumbbell abt-img"></i>
+                </div>
+                <div class="logo-body about-text">
+                 <h5 class="logo-title abt">We are operators, we roll up our sleeves, we have skin in the game.</h5>
+                 <p class="logo-text">We are deeply familiar with company-building and leverage our experience to help our companies succeed. We tend to see ourselves as "co-founders", going beyond being a management sounding board.</p>
+               </div>
+              </div>
+              <div class="col-lg-4 col-md-12 about-card">
+                <div class="logo-img-container">
+                  <i class="fas fa-route abt-img"></i>
+                </div>
+                <div class="logo-body about-text">
+                 <h5 class="logo-title">We adapt our approach to set businesses up for the long term</h5>
+                 <p class="logo-text">Every business is unique and faces its own set of opportunities and challenges. Our investing style adapts accordingly, with a goal to set up the business for long term success.</p>
+               </div>
+              </div>
+              <div class="col-lg-4 col-md-12 about-card">
+                <div class="logo-img-container">
+                  <i class="fas fa-users abt-img"></i>
+                </div>
+                <div class="logo-body about-text">
+                 <h5 class="logo-title">Creating winning teams is core to us. Investing is about people.</h5>
+                 <p class="logo-text">The most important thing is the team behind the idea. We couldn't agree more, but if it only were this simple. The ups and downs, fires that need to be put out...all involve dealing with people. That's exaclty what we love doing.</p>
+               </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+          <div class="container-fluid">
+            <h1 class="section-title">Portfolio</h1>
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="effera-logo.png" class="effera-plogo" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">IoT Solutions for the construction industry.</p>
+                  <a href="https://www.effera.no/en/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/effera/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://twitter.com/effera_no" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="griptel-logo.png" class="logo-img-top" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">Components for mobile network operators.</p>
+                  <a href="http://griptel.no/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="ubq-logo.png" class="logo-img-top" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">Services for mobile network operators.</p>
+                  <a href="https://ubconnect.no/en/home/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ubconnect/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class=" portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="vissim-logo.png" class="logo-img-top" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">Monitoring software for marine infrasturcture.</p>
+                  <a href="https://www.vissim.no/" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/vissim-as/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://twitter.com/vissimas?lang=en" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="halogen-logo.png" class="logo-img-top" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">Digital transdisciplinary design consultancy.</p>
+                  <a href="https://halogen.no/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/halogen/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://twitter.com/HalogenAS" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                  <div class="mgmt-box">
+                    <img src="team.jpg" class="mgmt" alt="">
+                  </div>
+                  <div class="ptf-logo">
+                    <div class="ptf-logo-box">
+                      <img src="phonero-logo.png" class="logo-img-top" alt="">
+                    </div>
+                  </div>
+                  <p class="prtf-txt">Mobile network operator for businesses.</p>
+                  <a href="https://www.phonero.no/" class="btn btn-light portfolio-info">
+                    <i class="fas fa-globe-americas"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/phonero/" target="_blank" class="btn btn-light portfolio-info">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
           </div>
-        </div>
+
+        </section>
+
+
+        <!-- News -->
+        <section id="news">
+          <div class="container-fluid">
+            <h1 class="dark-title">News</h1>
+            <div class="twitter">
+              <a class="twitter-timeline"
+              href="https://twitter.com/thevibe_n?ref_src=twsrc%5Etfw"
+              data-with="300"
+              data-height="600"
+              data-chrome="noheader nofooter noborders">
+              Tweets by thevibe_n
+            </a>
+          </div>
+          </div>
+
+        </section>
+
+        <!-- Team -->
+        <section id="team">
+          <div class="container-fluid">
+            <h1 class="section-title">Team</h1>
+            <div class="row">
+              <div class="col team-txt">
+                <div class="team-img-container">
+                  <img src="ditlef-profile.jpg" class="ditlef-pic" alt="">
+                </div>
+                <div >
+                  <h5 class="team-heading">Ditlef de Vibe</h5>
+                  <p class="team-tsxt">Before starting Avant, Ditlef de Vibe was the CEO of Kistefos Venture Capital AS, a global venture capital fund. At Kistefos, he built a successful investing track record with exits to companies such as Hercules Capital, Google and Yahoo in addition to IPOs. Ditlef has throughout his career developed a keen interest in sales and technology; he witnessed first-hand the rise of the internet and cloud technologies at IBM where he rose as one of the best sales executives, and went on to lead IBM's EMEA Network Outsourcing business.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Contact   -->
+        <section id="contact">
+          <div class="container-fluid">
+            <h1 class="dark-title">Contact us</h1>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 home-map">
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128083.26573306319!2d10.64503590449223!3d59.89395286063799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2sOslo%2C%20Norway!5e0!3m2!1sen!2suk!4v1615116974398!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <form class="contact-form" action="mailto:ditlef.devibe@avant.vc" method="post" enctype="text/plain">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark contact-btn">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+          <p>Avant AS, All rights reserved</p>
+          <a href="https://avant.vc/" target="_blank"><i class="fas fa-globe-americas"></i><a>
+          <a href="https://www.linkedin.com/in/nicholasvibe/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/thevibe_n" target="_blank"><i class="fab fa-twitter"></i></a>
+
+        </section>
+
+
       </div>
 
-
-    </section>
-
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-
+    <script>
+      var vid = document.getElementById("myVideo");
+        vid.playbackRate = 0.8;
+        vid.currentTime = 6;
+    </script>
   </body>
 </html>
